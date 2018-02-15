@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="tohamy.amal.firstproject.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/udacity_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="8dp"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/udacity_image"
+            android:src="@drawable/udacity" />
+
+        <ImageView
+            android:id="@+id/info_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/udacity_image"
+            android:layout_margin="8dp"
+            android:contentDescription="@string/info_logo"
+            android:src="@drawable/info" />
+
+        <TextView
+            android:id="@+id/info_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/udacity_image"
+            android:layout_margin="8dp"
+            android:layout_toEndOf="@+id/info_logo"
+            android:text="@string/udacity_info"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/address_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/info_text_view"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="16dp"
+            android:contentDescription="@string/address_logo"
+            android:src="@drawable/placeholder" />
+
+        <TextView
+            android:id="@+id/address_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/address_logo"
+            android:layout_margin="6dp"
+            android:layout_toEndOf="@+id/address_logo"
+            android:text="@string/address_text_view" />
+
+        <ImageView
+            android:id="@+id/phone_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/address_text_view"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="16dp"
+            android:contentDescription="@string/phone_logo"
+            android:src="@drawable/phone" />
+
+        <TextView
+            android:id="@+id/phone_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/phone_logo"
+            android:layout_margin="8dp"
+            android:layout_toEndOf="@id/phone_logo"
+            android:text="@string/phone_number" />
+
+        <ImageView
+            android:id="@+id/website_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/phone_text_view"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="16dp"
+            android:contentDescription="@string/website_logo"
+            android:src="@drawable/website" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/website_logo"
+            android:layout_margin="8dp"
+            android:layout_toEndOf="@id/website_logo"
+            android:text="@string/udacity_website" />
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">FirstProject</string>
+    <string name="udacity_info">Udacity is a for-profit educational organization founded by Sebastian Thrun, David Stavens, and Mike Sokolsky offering massive open online courses</string>
+    <string name="address_text_view">2465 Latham St, Mountain View, CA 94043</string>
+    <string name="phone_number">650-555-5555</string>
+    <string name="udacity_website">www.udacity.com</string>
+    <string name="udacity_image">udacity image</string>
+    <string name="info_logo">info_logo</string>
+    <string name="address_logo">address_logo</string>
+    <string name="phone_logo">phone_logo</string>
+    <string name="website_logo">website_logo</string>
+</resources>
